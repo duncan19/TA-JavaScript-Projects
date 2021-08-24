@@ -10,5 +10,5 @@
 function My_First_Func() {
   var str = "This text is blue" //Creates string//
   var result = str.fontcolor("blue") //Sets the string to be blue//
-  document.getElementByID("Blue_Text").innerHTML = result; //Creates it in html//
+  document.getElementById("Blue_text").innerHTML = result; //Creates it in html//
 }
