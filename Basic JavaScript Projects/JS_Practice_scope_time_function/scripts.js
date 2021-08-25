@@ -1,3 +1,5 @@
+
+
 function Vehicle(Make, Model, Year, Color) {  //make constructor //
   this.Vehicle_Make = Make;  //assign properties//
   this.Vehicle_Model = Model; //assign properties//
