@@ -56,5 +56,5 @@ function Clog6_func() {
   console.log(result > 4 && result < 10); //display result showing if the statement is true or false//
   console.log(result < 4 || result < 10); //display result showing if the statement is true or false//
   console.log(!(result == 7)) //display result showing if the statement is true or false//
-  console.log(!(result == 8)) //display result showing if the statement is true or false//
+  console.log(!(result == 8))   //display result showing if the statement is true or false//
 }
