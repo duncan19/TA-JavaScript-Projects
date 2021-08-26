@@ -38,10 +38,10 @@ function Age_Func() {
 function Time_Func() {
   var Time = new Date().getHours();
   var Reply = "";
-  if (Time < 12 == Time > 0) {
+  if (Time < 12 && Time > 0) {
     Reply = "It is morning time!"
   }
-  else if (Time >= 12 == Time < 0) {
+  else if (Time >= 12 && Time < 24) {
     Reply = "It is afternoon!"
   }
   else {
