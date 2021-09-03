@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+		<title>BASIC JS</title>
+		<meta charset="utf-8">
+	</head>
+<script>
+	$(document).ready(function() {//runs function when page loads//
+		$("html").append( //adds to the html//
+			"<body>\
+					<div id='container'>\
+						<div id='inner'>\
+							<h1>Basic jQuery</h1>\
+							<p id='1'>Paragraph 1</p>\
+							<p id='2'>Paragraph 2</p>\
+							<p id='3'>Paragraph 3</p>\
+						</div>\
+					</div>\
+				</body>"
+		);
+		$("#2").css({"color":"red"}); //targets p with id of 2 to run css change//
+		$("#3").click(function() { //when the p with the id of 3 is clicked run this function//
+		$('h1').hide(); //targets h1 and hides it//
+		})
+	});
+
+
+</script>
+</html>
