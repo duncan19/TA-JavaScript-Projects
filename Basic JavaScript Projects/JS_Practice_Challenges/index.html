@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+		<title>BASIC JS</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+	  	document.body.classList.add('fade-out');
+		</script>
+		<h1>This is my header</h1>
+		<hr>
+		<p>horizontal rule ^</p>
+		<div id="top"></div>
+			<h1><a href="#bottom">Jump to bottom of page</a></h1>
+			<div class="zoom_img">
+				<img id="pic1" src="images/pic1.jpg" alt="pic1">
+			<h1 style="font-size:3vw;">this is text with the font size using the vw unit</h1>
+		</div>
+		<div class="my-sticky-div">
+			<h1>I should not move when you scroll past me</h1>
+		</div>
+		<div id="slideshow">
+			<div>
+				here are picture of mountains!
+			</div>
+		  <div>
+		    <img class='img_slide' src="https://i.guim.co.uk/img/media/6088d89032f8673c3473567a91157080840a7bb8/413_955_2808_1685/master/2808.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=412cc526a799b2d3fff991129cb8f030">
+		  </div>
+		  <div>
+		    <img class= 'img_slide' src="https://files.worldwildlife.org/wwfcmsprod/images/Mountains_New_Hero_Image/story_full_width/5c6n24n4pm_mountains_hero.jpg">
+		  </div>
+		</div>
+		<div id='animation_div'></div>
+		<button class="open-button" onclick="openForm()">Open Form</button>
+
+		<div class="form-popup" id="myForm">
+			<h1>Contact form</h1>
+			<form name="my-form" class=form-container method="post" onsubmit="return validateForm()">
+				Name: <input type="text" name="name">
+				<label for="phone">Enter your phone number:</label>
+				<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				<button type="submit" name="button">Submit</button>
+			</form>
+		</div>
+		<div id="bottom">
+			<p>this is the bottom of the page!</p>
+			<h4><a href="#top">Jump to top of page</a></h4>
+		</div>
+	</body>
+</html>
