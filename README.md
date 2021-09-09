@@ -1,4 +1,4 @@
-<h2>In this repository i have multipul practice proejects and challenges as well as a few projects that were made on a larger scale:</h2>
+<h2>In this repository I have multipule practice projects and challenges as well as a few projects that were made on a larger scale:</h2>
 <br>
 <h1>The notable projects are:</h1>
 <br>
